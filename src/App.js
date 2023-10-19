@@ -185,7 +185,7 @@ const App = () =>
               </>
             }
           </button>
-          <button className='rounded timelapse-button ms-3 me-3' onClick={() =>
+          <button className='rounded year-button ms-3 me-3' onClick={() =>
           {
 
             setCurrentYear(1950);
@@ -209,7 +209,7 @@ const App = () =>
               width: "70%",
             }}
           />
-          <button className='rounded timelapse-button ms-3' onClick={() =>
+          <button className='rounded year-button ms-3' onClick={() =>
           {
 
             setCurrentYear(2021);

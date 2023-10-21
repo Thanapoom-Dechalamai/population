@@ -150,7 +150,7 @@ const App = () =>
                   <Cell key={`cell-${index}`} fill={getColor(entry["Country name"])} />
                 ))}
               </Bar>
-              <Tooltip />
+              <Tooltip formatter={(value, name, props) => [parseInt(value).toLocaleString(), name]} />
               <Legend />
             </ComposedChart>
           </ResponsiveContainer>

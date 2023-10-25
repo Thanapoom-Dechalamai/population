@@ -41,7 +41,7 @@ const Chartrace = () =>
                     labels={labels}
                     colors={colors}
                     timeout={400}
-                    delay={100}
+                    delay={1000}
                     timelineStyle={{
                         textAlign: "center",
                         fontSize: "50px",

@@ -60,7 +60,7 @@ const App = () =>
       return parseInt(item.Year) === currentYear;
     })
     .sort((a, b) => b.Population - a.Population) // Sort by population in descending order
-    .slice(0, 12)
+    .slice(0, 15)
     .reduce((prev, entry) =>
     {
       const color = getColor(entry["Country name"], colorCache);

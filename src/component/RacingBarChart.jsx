@@ -87,7 +87,7 @@ function RacingBarChart({ data, dom })
   }, [data, dimensions]);
 
   return (
-    <div ref={wrapperRef} style={{ margin: "0 5rem 2rem 7rem", height: "50vh" }}>
+    <div ref={wrapperRef} style={{ margin: "0 5rem 2rem 7rem", height: `60vh` }}>
       <svg style={{ overflow: 'visible' }} className="w-100 h-100" ref={svgRef}>
         <g className="x-axis" />
       </svg>
